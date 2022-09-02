@@ -26,7 +26,7 @@ const Header = () => {
       <div
         className={
           nav
-            ? "fixed left-0 top-0 w-[80%] h-full border-r border-r-white-900 bg-[#f5f5f5] ease-in-out duration-500 "
+            ? "fixed left-0 top-0 w-[90%] h-full border-r border-r-white-900 bg-[#f5f5f5] ease-in-out duration-500 "
             : " fixed left-[-100%] "
         }
       >
@@ -38,9 +38,9 @@ const Header = () => {
             <a href="/">Home</a>
           </li>
           <li className="p-4 border-b border-gray-600">Company</li>
-          <li className="p-4 border-b border-gray-600">Resources</li>
+          <li className="p-4 border-b border-gray-600">Our Services</li>
           <li className="p-4 border-b border-gray-600">About Us</li>
-          <li className="p-4">Contact</li>
+          <li className="p-4">Contact Us</li>
         </ul>
       </div>
     </div>

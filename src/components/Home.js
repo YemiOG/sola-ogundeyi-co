@@ -5,8 +5,8 @@ import Hero from "../assets/img/accounting.svg";
 const Home = () => {
   return (
     <div>
-      <div className="text-[black] grid gap-y-0 grid-flow-row h-screen grid-cols-1 md:grid-cols-2">
-        <div className="max-w-[800px] mt-[-96px] w-full  mx-auto text-center flex flex-col justify-center md:mt-[-250px]">
+      <div className="text-[black] grid gap-y-0 grid-flow-column md:h-80% mt-16 md:mt-32 grid-cols-1 md:grid-cols-2 md:mb-32">
+        <div className="max-w-[800px] w-full  mx-auto text-center flex flex-col justify-center md:mt-[30px] ">
           <p className="uppercase font-bold text-[green]">
             Accounting you can count on
           </p>
@@ -34,12 +34,12 @@ const Home = () => {
             Get Started
           </a>
         </div>
-        <div>
+        <div className="mt-16">
           {" "}
           <img
             src={Hero}
             alt="Illustration of finance"
-            className="w-[500px] place-content-center mx-auto md:mt-40"
+            className="w-[300px] place-content-center mx-auto md:w-[500px]"
           />
         </div>
       </div>
