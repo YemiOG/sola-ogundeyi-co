@@ -11,9 +11,9 @@ const Home = () => {
             Accounting you can count on
           </p>
           <div className="flex justify-center items-center ">
-            <p className="md:text-4xl sm:text-4xl text-xl py-4">We Offer</p>
+            <p className="md:text-2xl lg:text-4xl text-xl py-4">We Offer</p>
             <Typed
-              className="md:text-4xl sm:text-4xl text-xl md:pl-4 pl-2 text-gray-500"
+              className="md:text-2xl lg:text-4xl text-xl md:pl-4 pl-2 text-gray-500"
               strings={[
                 "Audit and Assurance",
                 "Tax Planning",
@@ -24,7 +24,7 @@ const Home = () => {
               loop
             />
           </div>
-          <h1 className="md:text-4xl md:py-6 sm:text-3xl text-2xl font-bold">
+          <h1 className="md:text-2xl md:py-2 sm:text-3xl text-2xl font-bold">
             Get started with a free consultation!
           </h1>
           <a
