@@ -8,7 +8,7 @@ const Header = () => {
   };
   return (
     <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-black ">
-      <h1 className="w-full text-xl font-bold text-[green] ">
+      <h1 className="w-full text-xl font-bold text-[#004D00] ">
         Sola Ogundeyi & Co (Chartered Accountants)
       </h1>
       <ul className="md:flex whitespace-nowrap flex-nowrap hidden ">
@@ -30,7 +30,7 @@ const Header = () => {
             : " fixed left-[-100%] "
         }
       >
-        <h1 className="w-full text-xl font-bold text-[green] m-4">
+        <h1 className="w-full text-xl font-bold text-[#004D00] m-4">
           Sola Ogundeyi & Co (Chartered Accountants)
         </h1>
         <ul className="p-4 uppercase ">

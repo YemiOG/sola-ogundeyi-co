@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes, Redirect } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Clients from "./components/Clients";
+import Services from "./components/Services";
 function App() {
   return (
     <BrowserRouter>
@@ -12,8 +13,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
-        <hr />
         <Clients />
+        <Services />
       </div>
     </BrowserRouter>
   );

@@ -7,7 +7,7 @@ const Home = () => {
     <div>
       <div className="text-[black] grid gap-y-0 grid-flow-column md:h-80% mt-16 md:mt-32 grid-cols-1 md:grid-cols-2 md:mb-32">
         <div className="max-w-[800px] w-full  mx-auto text-center flex flex-col justify-center md:mt-[30px] ">
-          <p className="uppercase font-bold text-[green]">
+          <p className="uppercase font-bold text-[#004D00]">
             Accounting you can count on
           </p>
           <div className="flex justify-center items-center ">
