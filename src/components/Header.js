@@ -8,16 +8,17 @@ const Header = () => {
   };
   return (
     <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-black ">
-      <h1 className="w-full text-xl font-bold text-[#004D00] ">
-        Sola Ogundeyi & Co (Chartered Accountants)
-      </h1>
+      <a href="/home">
+        <h1 className="w-full text-xl font-bold text-[#004D00] ">
+          Sola Ogundeyi & Co (Chartered Accountants)
+        </h1>
+      </a>
       <ul className="md:flex whitespace-nowrap flex-nowrap hidden ">
         <li className="p-4">
           <a href="/">Home</a>
         </li>
         <li className="p-4">Company</li>
         <li className=" p-4 ">Our Services</li>
-
         <li className="p-4">Contact Us</li>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
@@ -34,12 +35,12 @@ const Header = () => {
           Sola Ogundeyi & Co (Chartered Accountants)
         </h1>
         <ul className="p-4 uppercase ">
-          <li className="p-4 border-b border-gray-600">
+          <li className="p-4 ">
             <a href="/">Home</a>
           </li>
-          <li className="p-4 border-b border-gray-600">Company</li>
-          <li className="p-4 border-b border-gray-600">Our Services</li>
-          <li className="p-4 border-b border-gray-600">About Us</li>
+          <li className="p-4 ">Company</li>
+          <li className="p-4 ">Our Services</li>
+          <li className="p-4 ">About Us</li>
           <li className="p-4">Contact Us</li>
         </ul>
       </div>
