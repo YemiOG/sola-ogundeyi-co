@@ -19,25 +19,25 @@ const Clients = () => {
           alt="Ogun state government logo"
         ></img>
       </div>
-      <div className="md:flex gap-10 justify-center text-xl hidden md:text-[20px] ">
+      <div className="md:flex gap-10 justify-center text-xl hidden md:text-[16.5px] ">
         <p>GATEWAY HOLDINGS</p>
         <p>ELTODA FARMS LTD.</p>
         {/* <p>ALL TECHNOLOGY LTD.</p>
         <p>LUDAY TRAVEL LIMITED</p>
         <p>SOFTSKILLS NIGERIA LTD.</p> */}
       </div>
-      <div className="md:flex gap-10 justify-center text-xl hidden md:text-[20px] ">
+      <div className="md:flex gap-10 justify-center text-xl hidden md:text-[16px] ">
         <p>ALL TECHNOLOGY LTD.</p>
         <p>LUDAY TRAVEL LIMITED</p>
         <p>SOFTSKILLS NIGERIA LTD.</p>
       </div>
-      <div className="md:flex gap-10 justify-center text-xl hidden md:text-[20px]">
+      <div className="md:flex gap-10 justify-center text-xl hidden md:text-[16px]">
         <p>ORRISON SCHILLER HEALTH LTD.</p>
         <p>EUROSPECS INTERNATIONAL LTD.</p>
         {/* <p>REMIGRAPHICS COMMUNICATION LTD.</p>
         <p>SGS INTERNATIONAL INSPECTION SERVICES LTD.</p> */}
       </div>
-      <div className="md:flex gap-10 justify-center text-xl hidden md:text-[20px]">
+      <div className="md:flex gap-10 justify-center text-xl hidden md:text-[16px]">
         <p>REMIGRAPHICS COMMUNICATION LTD.</p>
         <p>SGS INTERNATIONAL INSPECTION SERVICES LTD.</p>
       </div>

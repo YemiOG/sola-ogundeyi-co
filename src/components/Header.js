@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+
 const Header = () => {
   const [nav, setNav] = useState(false);
 
@@ -8,19 +10,26 @@ const Header = () => {
   };
   return (
     <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-black ">
-      <a href="/home">
-        <h1 className="w-full text-xl font-bold text-[#004D00] ">
+      <a href="/">
+        <h1 className="w-full text-[-20px] font-bold text-[#004D00] ">
           Sola Ogundeyi & Co (Chartered Accountants)
         </h1>
       </a>
-      <ul className="md:flex whitespace-nowrap flex-nowrap hidden ">
-        <li className="p-4">
-          <a href="/">Home</a>
-        </li>
-        <li className="p-4">Company</li>
-        <li className=" p-4 ">Our Services</li>
-        <li className="p-4">Contact Us</li>
-      </ul>
+      <nav className="md:flex whitespace-nowrap flex-nowrap hidden ">
+        <Link to="/" className="p-4">
+          Home
+        </Link>
+
+        <Link to="/" className="p-4">
+          Company
+        </Link>
+        <Link to="/services" className=" p-4 ">
+          Our Services
+        </Link>
+        <Link to="/contact-us" className="p-4">
+          Contact Us
+        </Link>
+      </nav>
       <div onClick={handleNav} className="block md:hidden">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
@@ -34,15 +43,23 @@ const Header = () => {
         <h1 className="w-full text-xl font-bold text-[#004D00] m-4">
           Sola Ogundeyi & Co (Chartered Accountants)
         </h1>
-        <ul className="p-4 uppercase ">
-          <li className="p-4 ">
-            <a href="/">Home</a>
-          </li>
-          <li className="p-4 ">Company</li>
-          <li className="p-4 ">Our Services</li>
-          <li className="p-4 ">About Us</li>
-          <li className="p-4">Contact Us</li>
-        </ul>
+        <nav className="p-4 uppercase flex flex-col ">
+          <Link to="/" className="p-4 ">
+            Home
+          </Link>
+          <Link to="/" className="p-4 ">
+            Company
+          </Link>
+          <Link to="/" className="p-4 ">
+            Our Services
+          </Link>
+          <Link to="/" className="p-4 ">
+            About Us
+          </Link>
+          <Link to="/contact-us" className="p-4">
+            Contact Us
+          </Link>
+        </nav>
       </div>
     </div>
   );
