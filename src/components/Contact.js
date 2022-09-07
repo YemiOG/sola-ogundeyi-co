@@ -12,38 +12,44 @@ const Contact = () => {
           <input
             placeholder="Full Name"
             type="text"
-            className="w-full h-[50px] mb-4 text border placeholder:px-5 py-2 "
+            className="w-full h-[50px] mb-4 text border  py-2 px-5"
             required
           />
           <input
             placeholder="Email Address"
             type="email"
-            className="w-full h-[50px] mb-4 text border placeholder:px-5 py-2"
+            className="w-full h-[50px] mb-4 text border  py-2 px-5"
             required
           />
           <input
             placeholder="Type of Business"
             type="text"
-            className="w-full h-[50px] mb-4 text border placeholder:px-5 py-2 "
+            className="w-full h-[50px] mb-4 text border  py-2 px-5"
             required
           />
           <input
             placeholder="Average Number of Monthly Transactions"
             type="text"
-            className="w-full h-[50px] mb-4 text-left border placeholder:px-5 py-2"
+            className="w-full h-[50px] mb-4 text-left border  py-2 px-5"
             required
           />
           <textarea
             placeholder="Tell us more about your accounting needs."
             type="text"
-            className="w-full h-[100px] mb-4 text border placeholder:px-5 placeholder:pt-3"
+            className="w-full h-[100px] mb-4 text border placeholder:pt-2  px-5"
             required
           />
           <textarea
             placeholder="Tell us any other questions, concerns, or special needs that you have"
             type="text"
-            className="w-full h-[100px] mb-4 text border placeholder:px-5 placeholder:pt-3"
+            className="w-full h-[100px] mb-4 text border py-2 placeholder:pt-2 px-5"
           />
+          <button
+            className="bg-[#004d00] w-[200px] rounded-md font-medium my-6 mx-auto py-3 uppercase text-center text-[#fbfefb]"
+            type="submit"
+          >
+            Send
+          </button>
         </div>
       </div>
     </div>

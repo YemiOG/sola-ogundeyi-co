@@ -11,8 +11,8 @@ const Header = () => {
   return (
     <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-black ">
       <a href="/">
-        <h1 className="w-full text-[-20px] font-bold text-[#004D00] ">
-          Sola Ogundeyi & Co (Chartered Accountants)
+        <h1 className="w-full text-[20px] font-bold text-[#004D00] ">
+          Sola Ogundeyi &amp; Co (Chartered Accountants)
         </h1>
       </a>
       <nav className="md:flex whitespace-nowrap flex-nowrap hidden ">
@@ -44,19 +44,19 @@ const Header = () => {
           Sola Ogundeyi & Co (Chartered Accountants)
         </h1>
         <nav className="p-4 uppercase flex flex-col ">
-          <Link to="/" className="p-4 ">
+          <Link onClick={handleNav} to="/" className="p-4 ">
             Home
           </Link>
-          <Link to="/" className="p-4 ">
+          <Link onClick={handleNav} to="/" className="p-4 ">
             Company
           </Link>
-          <Link to="/" className="p-4 ">
+          <Link onClick={handleNav} to="/services" className="p-4 ">
             Our Services
           </Link>
-          <Link to="/" className="p-4 ">
+          <Link onClick={handleNav} to="/" className="p-4 ">
             About Us
           </Link>
-          <Link to="/contact-us" className="p-4">
+          <Link onClick={handleNav} to="/contact-us" className="p-4">
             Contact Us
           </Link>
         </nav>

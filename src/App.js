@@ -10,13 +10,14 @@ function App() {
     <BrowserRouter>
       <div>
         <Header />
+
         <hr />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/services" element={<Clients />} />
           <Route path="/contact-us" element={<Contact />} />
         </Routes>
-        <Clients />
       </div>
     </BrowserRouter>
   );
