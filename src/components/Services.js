@@ -16,14 +16,14 @@ const Services = () => {
               alt="audit"
               className="w-[300px] h-[300px] mx-auto mb-10"
             />
-            <span className="mb-10 text-center">
+            <span className="mb-10 text-left">
               Our audit approach is designed to comply with both the Nigerian
               and International accounting and auditing standards. Our tried and
               tested approach, together with our multidisciplinary teams and
               effective...
             </span>
             <a
-              href="/audit"
+              href="/services/audit"
               className="bg-[#fbfefb] w-[200px] rounded-md font-medium my-6 mx-auto py-3 uppercase text-center text-[#004d00]"
             >
               Find Out More
@@ -47,7 +47,7 @@ const Services = () => {
               revenue...{" "}
             </span>
             <a
-              href="/audit"
+              href="/services/planning"
               className="bg-[#fbfefb] w-[200px] rounded-md font-medium my-6 mx-auto py-3 uppercase text-center text-[#004d00]"
             >
               Find Out More
@@ -69,7 +69,7 @@ const Services = () => {
               organisations...
             </span>
             <a
-              href="/audit"
+              href="/services/advisory"
               className="bg-[#fbfefb] w-[200px] rounded-md font-medium my-6 mx-auto py-3 uppercase text-center text-[#004d00]"
             >
               Find Out More
