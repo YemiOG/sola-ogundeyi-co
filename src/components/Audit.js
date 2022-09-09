@@ -2,7 +2,7 @@ import React from "react";
 
 const Audit = () => {
   return (
-    <div className="px-10">
+    <div className="px-3 md:px-10">
       <div className="max-w-[1240px] mx-auto text-left ">
         <h1 className="text-bold text-2xl p-3 md:text-3xl">
           Audit and Assurance
